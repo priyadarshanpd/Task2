@@ -1,7 +1,7 @@
 function Show-MyResources {
 
-Get-AzureRmResource -ResourceGroupName <ResourceGroup Name>;
-Get-AzResourceGroup;
+Get-AzureRmResource -ResourceGroupName <ResourceGroup Name>; // outputs all the resources ina resource group
+Get-AzResourceGroup; // outputs all the resource groups
 
 }
 Export-ModuleMember -Function Show-MyResources
